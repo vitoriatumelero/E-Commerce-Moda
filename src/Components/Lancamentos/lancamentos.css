@@ -1,0 +1,85 @@
+.lancamentos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    padding: 20px; 
+  }
+  
+  .lancamentos p {
+    font-size: 1.5rem; 
+    color: #333;
+    text-align: left; 
+    margin-bottom: 25px;
+  }
+  
+  .lancamentos-peças {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+    gap: 15px;
+    width: 100%;
+  }
+  
+  .lancamentos-peças .peças {
+    width: 100%;
+    max-width: 230px;
+    text-align: left; 
+    font-size: 1.0rem; 
+  }
+  .lancamentos-peças .peças p{
+    font-size: 1.0rem; 
+    color: #1D1D1D;
+  }
+
+  .lancamentos-peças .peças-preços-novos {
+    font-size: 0.9rem; 
+    color: #1D1D1D;
+  }
+  .lancamentos-peças img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .lancamentos-peças .peças-preços-velhos {
+    color: #333;
+    text-decoration: line-through;
+    font-size: 0.85rem; 
+  }
+  
+  @media (max-width: 768px) {
+    .lancamentos-peças {
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .size-option {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .size-option.selected {
+    background: #b11b26;
+    color: #fff;
+  }
+  
