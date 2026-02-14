@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './HomePage.css';
 
 // Exemplo de imagens
@@ -19,19 +20,19 @@ const HomePage = () => {
         <div className="categorias-grid">
           <div className="categoria-item">
             <img src={Casacosimg} alt="Casacos" />
-            <a href="#" className="nome-cat">Casacos</a>
+            <Link to="/categorias/casacos" className="nome-cat">Casacos</Link>
           </div>
           <div className="categoria-item">
             <img src={Malhasimg} alt="Malhas" />
-            <a href="#" className="nome-cat">Malhas</a>
+            <Link to="/categorias/malhas" className="nome-cat">Malhas</Link>
           </div>
           <div className="categoria-item">
             <img src={vestidoimg} alt= "Vestido" />
-            <a href="#" className="nome-cat">Vestidos</a>
+            <Link to="/categorias/vestidos" className="nome-cat">Vestidos</Link>
           </div>
           <div className="categoria-item">
             <img src={calcadoimg} alt="Calçados" />
-            <a href="#" className="nome-cat">Calçados</a>
+            <Link to="/categorias/calcados" className="nome-cat">Calçados</Link>
           </div>
         </div>
       </div>

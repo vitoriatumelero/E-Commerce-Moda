@@ -8,7 +8,7 @@ const Item = () => {
   const navigate = useNavigate();
   const { addItemToCart } = useContext(CartContext);
 
-  const item = data_product.find((product) => product.id === itemid);
+  const item = data_product.find((product) => product.id === Number(itemid));
 
   if (!item) {
     return <p>Produto não encontrado!</p>;

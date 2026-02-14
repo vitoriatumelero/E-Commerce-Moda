@@ -55,16 +55,11 @@ const Navbar = () => {
               lancamentos
             </a>
           </li>
-          <li>
-            <Link to="outlet" style={{ textDecoration: 'none' }}>Outlet</Link>
-          </li>
         </ul>
       </div>
       <div className="nav-right">
         <img src={search_icon} alt="Pesquisa" className="nav-icon" />
-        <Link to="perfil">
-          <img src={profile_icon} alt="Perfil" className="nav-icon" />
-        </Link>
+        <img src={profile_icon} alt="Perfil" className="nav-icon" />
         <Link to="/carrinho">
           <div className="nav-cart">
             <img src={cart_icon} alt="Carrinho" className="nav-icon" />
