@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bc631a47.css",
+    "main.js": "/static/js/main.55116947.js",
+    "static/js/453.408b07cf.chunk.js": "/static/js/453.408b07cf.chunk.js",
+    "static/media/bannerprincipal.png": "/static/media/bannerprincipal.bfc29f60961084c278e5.png",
+    "static/media/01-3.webp": "/static/media/01-3.2cf98d6efac17af6c278.webp",
+    "static/media/calçado.png": "/static/media/calçado.5857b25d9cb8dd874475.png",
+    "static/media/vestido.png": "/static/media/vestido.bdb91bd5eb45a002b020.png",
+    "static/media/model.png": "/static/media/model.28ef40408ff51938d1bb.png",
+    "static/media/image12.png": "/static/media/image12.45e753ee526b20351951.png",
+    "static/media/frame70.png": "/static/media/frame70.17ae8fa30fea8d64099b.png",
+    "static/media/02-categoria.webp": "/static/media/02-categoria.c4b753835edb0961f540.webp",
+    "static/media/besimplebetrue.png": "/static/media/besimplebetrue.36a6fa8a1dcb7c31d4ec.png",
+    "static/media/03-categoria.webp": "/static/media/03-categoria.c97fc4d7a7fc19a05823.webp",
+    "static/media/Frame81.png": "/static/media/Frame81.6bbc1aa64f0b0108269b.png",
+    "static/media/produto-4.png": "/static/media/produto-4.3dd3dd0d968b0f3dceff.png",
+    "static/media/Frame 83 1.png": "/static/media/Frame 83 1.1cb8df23b6912608f4ce.png",
+    "static/media/Frame80.png": "/static/media/Frame80.11e8805d544d2bdb08dc.png",
+    "static/media/produto-5.png": "/static/media/produto-5.0359e63793acad4b0843.png",
+    "static/media/Frame82.png": "/static/media/Frame82.d8429b170d51a413acc4.png",
+    "static/media/logo-site.webp": "/static/media/logo-site.ccf108f8f44a7814de65.webp",
+    "index.html": "/index.html",
+    "main.bc631a47.css.map": "/static/css/main.bc631a47.css.map",
+    "main.55116947.js.map": "/static/js/main.55116947.js.map",
+    "453.408b07cf.chunk.js.map": "/static/js/453.408b07cf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bc631a47.css",
+    "static/js/main.55116947.js"
+  ]
+}
