@@ -9,17 +9,17 @@ const Categorias = () => {
 
   // Mapear nomes de categorias para filtros
   const categoryMap = {
-    'casacos': 'casaco',
-    'malhas': 'malha',
-    'vestidos': 'vestido',
-    'calcados': 'calçado'
+    'scarpin': 'Scarpin',
+    'bota': 'Bota',
+    'sandalia': 'Sandália',
+    'sapato': 'Sapato'
   };
 
   const categoryFilter = categoryMap[categoria] || categoria;
   
   // Filtrar produtos pela categoria
   const produtosFiltrados = data_product.filter(
-    (product) => product.category && product.category.toLowerCase() === categoryFilter.toLowerCase()
+    (product) => product.category && product.category === categoryFilter
   );
 
   return (

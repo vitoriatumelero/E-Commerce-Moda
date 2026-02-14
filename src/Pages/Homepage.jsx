@@ -19,20 +19,20 @@ const HomePage = () => {
         <h2>Categorias</h2>
         <div className="categorias-grid">
           <div className="categoria-item">
-            <img src={Casacosimg} alt="Casacos" />
-            <Link to="/categorias/casacos" className="nome-cat">Casacos</Link>
+            <img src={Casacosimg} alt="Sapato" />
+            <Link to="/categorias/sapato" className="nome-cat">Sapatos</Link>
           </div>
           <div className="categoria-item">
-            <img src={Malhasimg} alt="Malhas" />
-            <Link to="/categorias/malhas" className="nome-cat">Malhas</Link>
+            <img src={Malhasimg} alt="Sandália" />
+            <Link to="/categorias/sandalia" className="nome-cat">Sandálias</Link>
           </div>
           <div className="categoria-item">
-            <img src={vestidoimg} alt= "Vestido" />
-            <Link to="/categorias/vestidos" className="nome-cat">Vestidos</Link>
+            <img src={vestidoimg} alt="Bota" />
+            <Link to="/categorias/bota" className="nome-cat">Botas</Link>
           </div>
           <div className="categoria-item">
-            <img src={calcadoimg} alt="Calçados" />
-            <Link to="/categorias/calcados" className="nome-cat">Calçados</Link>
+            <img src={calcadoimg} alt="Scarpin" />
+            <Link to="/categorias/scarpin" className="nome-cat">Scarpins</Link>
           </div>
         </div>
       </div>

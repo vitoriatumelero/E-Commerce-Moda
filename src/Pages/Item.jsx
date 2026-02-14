@@ -5,7 +5,6 @@ import data_product from '../Components/Assets/Assets/data';
 
 const Item = () => {
   const { itemid } = useParams();
-  const navigate = useNavigate();
   const { addItemToCart } = useContext(CartContext);
 
   const item = data_product.find((product) => product.id === Number(itemid));
