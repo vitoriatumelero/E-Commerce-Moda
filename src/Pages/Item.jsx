@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { CartContext } from '../Context/CartContext';
 import data_product from '../Components/Assets/Assets/data';
 
